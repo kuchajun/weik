@@ -1,0 +1,62 @@
+#essay {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 1.293333rem;
+}
+
+.nav {
+  position: fixed;
+  right: 0;
+  top: 50%;
+}
+
+.nav .nav-l {
+  position: absolute;
+  left: 0;
+  top: -1.133333rem;
+  width: 1.066667rem;
+  height: 1.066667rem;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#0086f7), to(#57a6ff));
+  background-image: -webkit-linear-gradient(bottom, #0086f7, #57a6ff);
+  background-image: linear-gradient(to top, #0086f7, #57a6ff);
+  margin-bottom: 0.066667rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav .nav-l img {
+  display: block;
+  width: 0.56rem;
+  height: 0.32rem;
+}
+
+.nav li {
+  width: 1.066667rem;
+  height: 1.066667rem;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0086f7), to(#57a6ff));
+  background: -webkit-linear-gradient(bottom, #0086f7, #57a6ff);
+  background: linear-gradient(to top, #0086f7, #57a6ff);
+  color: #ffffff;
+  line-height: 1.066667rem;
+  font-size: 0.4rem;
+  text-align: center;
+  margin-bottom: 0.066667rem;
+}
+
+.nav ul {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.8s;
+  transition: height 0.8s;
+}

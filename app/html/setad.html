@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>广告设置</title>
+	<link rel="stylesheet" type="text/css" href="../public/css/flexible.css">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/setad.css">
+	<link rel="stylesheet" type="text/css" href="../public/icon/iconfont.css">
+</head>
+<body>
+	<header>
+		<a class="goback" href="mine.html"><i class="icon iconfont">&#xe63d;</i></a>
+		<ul>
+			<li><a href="settitle.html">广告标签</a></li>
+			<li class="active">新增标签</li>
+		</ul>
+		
+	</header>
+	<div class="main">
+		<div class="setad">
+			<dl class="topad">
+				<dt>顶部广告</dt>
+				<dd  class="statead" data-adon=1>
+					<i>广告状态</i>
+					<span>启用</span>
+				</dd>
+				<dd class="stop">
+					<i>广告类型</i>
+					<span>图片</span>
+				</dd>
+				<dd class="stop linkad">
+					<i>广告链接</i>
+					<span>http://www.baidu.com</span>
+				</dd>
+				<dd class="stop">
+					<i>图片添加</i>
+					<span>图片标准尺寸【700*200】</span>
+				</dd>
+				
+				<ul class="stop setImg">
+
+					<li  class="morepic">
+						<img src="../img/adMore.png">
+						<input class="uppic" type="file" onchange="changeFile(this)" name="">
+					</li>
+				</ul>
+			</dl>
+			
+			<dl class="botad">
+				<dt>底部广告</dt>
+				<dd class="statead" data-adon=1>
+					<i>广告状态</i>
+					<span>启用</span>
+				</dd>
+				<dd class="stop">
+					<i>广告类型</i>
+					<span>图片</span>
+				</dd>
+				<dd  class="linkad stop">
+					<i>广告链接</i>
+					<span>http://www.baidu.com</span>
+				</dd>
+				<dd class="stop">
+					<i>图片添加</i>
+					<span>图片标准尺寸【700*200】</span>
+				</dd>
+				
+				<ul class="setImg stop">
+					<li  class="morepic">
+						<img src="../img/adMore.png">
+						<input class="uppic" type="file" onchange="changeFile(this)" name="">
+					</li>
+					
+				</ul>
+			</dl>
+
+			<dl class="fixad">
+				<dt>悬浮广告</dt>
+				<dd  class="statead" data-adon=1>
+					<i>广告状态</i>
+					<span>启用</span>
+				</dd>
+				<dd class="stop">
+					<i>广告类型</i>
+					<span>图片</span>
+				</dd>
+				<dd  class="linkad stop">
+					<i>广告链接</i>
+					<span>http://www.baidu.com</span>
+				</dd>
+				<dd class="stop">
+					<i>图片添加</i>
+					<span>图片标准尺寸【700*200】</span>
+				</dd>
+				
+				<ul class="setImg stop">
+					<li  class="morepic">
+						<img src="../img/adMore.png">
+						<input class="uppic" type="file" onchange="changeFile(this)" name="">
+					</li>
+					
+				</ul>
+			</dl>
+
+
+			<dl  class="setskip">
+				<dd class="statead" data-adon=1>
+					<i>自动跳转</i>
+					<span>启用</span>
+				</dd>
+				<dd class="setlink stop" data-adtype="top">
+					<i>跳转链接</i>
+					<span>顶部广告链接</span>
+				</dd>
+				<dd class="stime stop">
+					<i>跳转延时</i>
+					<span>5</span>S
+				</dd>
+			</dl>
+			<form>
+				<label>
+					<input class="iName" type="text" name="" placeholder="请输入标签名称">
+				</label>
+				<a href="javascript:;" class="keep">保存标签</a>	
+			</form>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="../public/js/flexible.js"></script>
+<script type="text/javascript" src="../public/layer_mobile/layer.js"></script>
+<script type="text/javascript" src="../public/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/setad.js"></script>
+</html>

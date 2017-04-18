@@ -1,0 +1,43 @@
+#essay{
+	width: 100%;
+	position: absolute;
+	top:0;
+	bottom: 97px;
+}
+.nav{
+	position: fixed;
+	right: 0px;
+	top: 50%;
+	.nav-l{
+		position: absolute;
+		left: 0px;
+		top:-85px;
+		width: 80px;
+		height: 80px;
+		background-image:linear-gradient(to top ,#0086f7,#57a6ff); 
+		margin-bottom: 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img{
+			display: block;
+			width: 42px;
+			height: 24px;
+		}
+	}
+	li{
+		width: 80px;
+		height: 80px;
+		background:linear-gradient(to top ,#0086f7,#57a6ff);
+		color: #ffffff;
+		line-height: 80px;
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	ul{
+		height: 0;
+		overflow: hidden;
+		transition:height 0.8s;
+	}
+}

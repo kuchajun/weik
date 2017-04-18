@@ -1,0 +1,205 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: #f1f1f1;
+}
+.content{
+	position: absolute;
+	top:0;
+	bottom: 97px;
+	width: 100%;
+	overflow: hidden;
+	.banner{
+		width: 100%;
+		height: 320px;
+		img{
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	ul{
+		width: 100%;
+
+	}
+	ul:after{
+		display: block;
+		width: 100%;
+		height: 97px;
+		content: "";
+	}
+	li{
+		width: 100%;
+		height: 85px;
+		background: #ffffff;
+		box-sizing: border-box;
+		padding:0 20px;
+		border-top: solid 1px #e5e5e5;
+		line-height: 85px;
+		font-size: 28px;
+		color: #000000;
+		display: flex;
+		i{
+			display: flex;
+			flex: 1;
+			justify-content: flex-start;
+			align-items: center;
+		}
+		a{
+			display: flex;
+			flex: 1;
+			justify-content: flex-start;
+			align-items: center;
+		}
+		span{
+			display: flex;
+			flex:1;
+			justify-content: flex-end;
+			align-items: center;
+			color: #666666;
+			position: relative;
+			img{
+				display: block;
+				width: 48px;
+				height: 48px;
+				margin-left:12px;
+			}
+			.hidFile{
+				position: absolute;
+				right: 0;
+				top: 18px;
+				width: 48px;
+				height: 48px;
+				opacity:0;
+    			filter:alpha(opacity=0);
+			}
+		}
+
+	}
+	.tui{
+		border:none;
+		margin-top:19px; 
+	}
+	.tel{
+		border:none;
+		margin-top:19px; 
+	}
+	.ctel{
+		border-top: solid 1px #e5e5e5;
+		margin-top:0px; 
+	}
+}
+
+
+.layui-m-layer0 .layui-m-layermain .layui-m-layerchild{
+	width: 460px;
+	height: 360px;
+}
+.layui-m-layerbtn span{
+	font-size: 30px!important;
+}
+/*改标题样式*/
+.layui-m-layermain .layui-m-layerchild h3 {
+	text-align: left;
+	font-size: 28px;
+	height: 100px;
+	padding-left:35px;
+	line-height: 100px;
+	color: #333333;
+}
+/*输入框*/
+.layui-m-layermain .layui-m-layercont{
+	padding:20px 80px;
+	height: 90px;
+	box-sizing: border-box;
+	font-size: 30px;
+	color: #666666;
+	input{
+		width: 100%;
+		height: 100%;
+		font-size: 30px;
+		border-bottom: solid 1px #239aff;
+		box-sizing: border-box;
+		
+	}
+}
+/* 保存取消 */
+.layui-m-anim-scale .layui-m-layerbtn{
+	padding-top: 70px;
+	background: #ffffff;
+	border:none;
+	display: flex!important;
+	justify-content: space-between;
+	span{
+		
+		width: 96px;
+		height: 42px;
+		font-size: 26px;
+		border-radius:8px!important;
+		color: #ffffff;
+		line-height: 42px;
+		text-align: center;
+		display: flex!important;
+		align-items: center;
+		justify-content: center;
+	}
+	span[no] {
+	    background: #c2c2c2;
+	    margin-left:100px;
+	    
+	}
+	span[yes] {
+	    background: #239aff;
+	    color:#ffffff;
+	    margin-right:100px;
+	    
+	}
+}
+/* 弹出图片 */
+.layui-m-layermain .layui-m-layersection .alertImg {
+	width: 480px;
+	height: 480px;
+}
+.layui-m-layermain .alertImg .layui-m-layercont{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	img{
+		display: block;
+		width: 100%;
+	}
+}
+/*提示框*/
+.layui-m-layer0 .layui-m-layermain .loginOk{
+	width: 240px;
+	height: 120px;
+
+	.layui-m-layercont{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #ffffff;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/*更换密码*/
+.layui-m-layermain .setword{
+	.layui-m-layerbtn{
+		padding-top: 0; 
+	}
+	.layui-m-layercont{
+		padding-top:0; 
+		height: 180px;
+		input{
+			height: 70px;
+		}
+	}
+}

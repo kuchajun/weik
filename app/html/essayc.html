@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文章管理</title>
+	<link rel="stylesheet" type="text/css" href="../public/css/flexible.css">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/essayc.css">
+	<script type="text/javascript" src="../public/js/flexible.js"></script>
+	<script type="text/javascript" src="../public/layer_mobile/layer.js"></script>
+	<script type="text/javascript" src="../public/js/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+	<header>
+	 	<form  class="search">
+	 		<label class="search">
+	 			<input class="keyword" type="text" name="" placeholder="标题">
+	 			<i class="search1"><img src="../img/search.png"></i>
+	 		</label>
+	 	</form>
+	 	<form  class="ctime">
+	 		<label>
+				<input class="timestart" type="date" name=""  value="0">
+			</label>
+			&nbsp;&nbsp;~&nbsp;&nbsp;<label>
+				<input class="timeend" type="date" name="" value="0">
+			</label>
+			<label>
+				<input class="clean" type="button" name="" value="确定">
+			</label>
+	 	</form>
+	 </header>
+	<div class="content" id="wrapper">
+		<div id="scroller">
+			<table  id="thelist" border="0" cellpadding="1" cellspacing="0">
+			  <tr>
+			    <th class="num">序号</th>
+			    <th class="title">标题</th>
+			    <th class="exposure">曝光</th>
+			    <th class="hit">点击</th>
+			    <th class="handel">操作</th>
+			  </tr>
+			  <!-- <tr>
+			    <td class="num">1</td>
+			    <td class="title">23333</td>
+			    <td class="exposure">2444</td>
+			    <td class="hit">255</td>
+			    <td class="handel del">删除</td>
+			  </tr> -->
+
+			</table>
+			<div id="pullUp">
+				<span class="pullUpIcon"></span>
+				<span class="pullUpLabel">加载更多...</span>
+			</div>
+		</div>
+	 	
+	 </div>
+	<footer>
+		
+		<a href="homec.html" >
+			<i><img src="../img/home1.png"></i>
+			<span>管理</span>
+		</a>
+		<a  href="essayc.html"  class="fActive">
+			<i><img src="../img/essay2.png"></i>
+			<span>文章</span>
+		</a>
+		<a  href="accountch.html">
+			<i><img src="../img/statistics1.png"></i>
+			<span>统计</span>
+		</a>
+		<a href="minec.html">
+			<i><img src="../img/mine1.png"></i>
+			<span>我的</span>
+		</a>
+		
+	</footer>
+</body>
+<script type="text/javascript" src="../public/js/iscroll.js"></script>
+
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/essayc.js"></script>
+</html>

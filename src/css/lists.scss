@@ -1,0 +1,207 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: #f1f1f1;
+}
+header{
+	width: 100%;
+	height:96px;
+	padding:20px 100px;
+	background: #239aff;
+	box-sizing: border-box;
+	form{
+		width: 100%;
+		height: 100%;
+		background: #ffffff;
+		border-radius: 5px;
+		label{
+			width: 100%;
+			height: 100%;
+			display: flex;
+
+			input{
+				flex: 1;
+				border:none;
+				box-sizing: border-box;
+				padding-left: 20px;
+				font-size: 30px;
+			}
+			i{
+				
+				width: 60px;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				img{
+					display: block;
+					width:34px;
+					height: 32px; 
+				}
+			}
+		}
+	}
+}
+.content{
+	
+	background: #ffffff;
+	
+	width: 100%;
+	tr{
+		border-bottom: solid 1px #e5e5e5;
+	}
+	
+	table{
+		width: 100%;
+		font-size: 30px;
+		
+		tr{
+			width: 100%;
+			height: 85px;
+			box-sizing: border-box;
+			padding:0 20px;
+			display: flex;
+			transition: height 0.8s;
+			overflow: hidden;
+		}
+		td,th{
+			text-align: center;
+			height: 85px;
+			line-height: 85px;
+			color:#000000;
+		}
+		td{
+			color:#333333;
+		}
+		.del{
+			color:#ff5757;
+		}
+		.num{
+			width: 100px;
+		}
+		.title{
+			width: 210px;
+			display:block;
+			white-space:nowrap; 
+			overflow:hidden; 
+			text-overflow:ellipsis;
+		}
+		.exposure{
+			width: 150px;
+		}
+		.hit{
+			width: 150px;
+		}
+		.handel{
+			flex: 1;
+		}
+	}
+}
+/*上拉加载更多*/
+#wrapper{
+	position: absolute;
+	top:116px;
+	bottom:0;
+	
+}
+#scroller {
+	position:absolute;
+	z-index:1;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	width:100%;
+	padding:0;
+}
+
+
+.layui-m-layer0 .layui-m-layerchild{
+	width: 460px!important;
+	height: 240px;
+	font-size: 20px;/*no*/
+
+}
+.layui-m-layerbtn span{
+	font-size: 30px!important;
+}
+
+
+
+/*删除成功*/
+.layui-m-layer0 .layui-m-layermain .loginOk{
+	width: 240px;
+	height: 120px;
+
+	.layui-m-layercont{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #ffffff;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+
+
+/* 保存取消 */
+.layui-m-anim-scale .layui-m-layerbtn{
+    padding-top: 70px;
+    background: #ffffff;
+    border:none;
+    display: flex!important;
+    justify-content: space-between;
+    span{
+        
+        width: 96px;
+        height: 42px;
+        font-size: 26px;
+        border-radius:8px!important;
+        color: #ffffff;
+        line-height: 42px;
+        text-align: center;
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+    }
+    span[no] {
+        background: #c2c2c2;
+        margin-left:100px;
+        
+    }
+    span[yes] {
+        background: #239aff;
+        color:#ffffff;
+        margin-right:100px;
+        
+    }
+}
+/*改标题样式*/
+.layui-m-layermain .layui-m-layerchild h3 {
+    text-align: left;
+    font-size: 28px;
+    height: 100px;
+    padding-left:35px;
+    line-height: 100px;
+    color: #333333;
+}
+/*输入框*/
+.layui-m-layermain .layui-m-layercont{
+    padding:20px 20px;
+    height: 90px;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: #666666;
+    input{
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        border-bottom: solid 1px #239aff;
+        box-sizing: border-box;
+        
+    }
+}

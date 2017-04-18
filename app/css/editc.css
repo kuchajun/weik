@@ -1,0 +1,392 @@
+@charset "UTF-8";
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1;
+}
+
+.content {
+  width: 100%;
+  overflow: hidden;
+}
+
+.content ul {
+  width: 100%;
+  margin-top: 0.266667rem;
+  -webkit-transition: height 0.8s;
+  transition: height 0.8s;
+}
+
+.content li {
+  width: 100%;
+  height: 1.133333rem;
+  background: #ffffff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0.266667rem;
+  border-top: solid 0.013333rem #e5e5e5;
+  line-height: 1.133333rem;
+  font-size: 0.373333rem;
+  color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content li i {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.content li a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.content li span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #666666;
+  position: relative;
+}
+
+/*更改状态*/
+
+.layui-m-layer0 .layui-m-layersection .chstate {
+  width: 6.133333rem;
+  max-width: 8.533333rem;
+  height: 4.8rem;
+}
+
+.layui-m-layer0 .layui-m-layersection .chstate input[type="radio"] {
+  display: none;
+}
+
+.layui-m-layer0 .layui-m-layersection .chstate input[type="radio"]:checked + label i {
+  background: url(../img/icon.png) no-repeat 0.073333rem 0.073333rem;
+  background-size: 0.146667rem 0.146667rem;
+}
+
+.layui-m-layer0 .layui-m-layersection .chstate h3 {
+  width: 100%;
+  height: 1.413333rem;
+  line-height: 1.413333rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 0.44rem;
+  font-size: 0.373333rem;
+  color: #333333;
+  text-align: left;
+}
+
+.layui-m-layer0 .layui-m-layersection .chstate .layui-m-layercont {
+  height: 1.466667rem;
+  padding: 0 1.333333rem 0 1.333333rem;
+}
+
+.layui-m-layer0 .layui-m-layersection .chstate .layui-m-layercont label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  height: 0.733333rem;
+  line-height: 0.733333rem;
+  font-size: 0.373333rem;
+  color: #666666;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.layui-m-layer0 .layui-m-layersection .chstate .layui-m-layercont label i {
+  position: relative;
+  display: block;
+  width: 0.293333rem;
+  height: 0.293333rem;
+  border-radius: 50%;
+  border: 1px solid #666666;
+  overflow: hidden;
+  margin-right: 0.2rem;
+}
+
+/*更改子账号名称,手机号,邮箱*/
+
+.layui-m-layer0 .layui-m-layersection .chname,
+.layui-m-layer0 .layui-m-layersection .chtel,
+.layui-m-layer0 .layui-m-layersection .chemail,
+.layui-m-layer0 .layui-m-layersection .chpass {
+  width: 6.133333rem;
+  max-width: 8.533333rem;
+  height: 4.8rem;
+}
+
+.layui-m-layer0 .layui-m-layersection .chname h3,
+.layui-m-layer0 .layui-m-layersection .chtel h3,
+.layui-m-layer0 .layui-m-layersection .chemail h3,
+.layui-m-layer0 .layui-m-layersection .chpass h3 {
+  width: 100%;
+  height: 1.413333rem;
+  line-height: 1.413333rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 0.44rem;
+  font-size: 0.373333rem;
+  color: #333333;
+  text-align: left;
+}
+
+.layui-m-layer0 .layui-m-layersection .chname .layui-m-layercont,
+.layui-m-layer0 .layui-m-layersection .chtel .layui-m-layercont,
+.layui-m-layer0 .layui-m-layersection .chemail .layui-m-layercont,
+.layui-m-layer0 .layui-m-layersection .chpass .layui-m-layercont {
+  padding: 0 0.8rem;
+  width: 100%;
+  height: 1.333333rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.layui-m-layer0 .layui-m-layersection .chname .layui-m-layercont label,
+.layui-m-layer0 .layui-m-layersection .chtel .layui-m-layercont label,
+.layui-m-layer0 .layui-m-layersection .chemail .layui-m-layercont label,
+.layui-m-layer0 .layui-m-layersection .chpass .layui-m-layercont label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  height: 1.333333rem;
+  line-height: 0.733333rem;
+  font-size: 0.373333rem;
+  color: #666666;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.layui-m-layer0 .layui-m-layersection .chname .layui-m-layercont label input,
+.layui-m-layer0 .layui-m-layersection .chtel .layui-m-layercont label input,
+.layui-m-layer0 .layui-m-layersection .chemail .layui-m-layercont label input,
+.layui-m-layer0 .layui-m-layersection .chpass .layui-m-layercont label input {
+  width: 100%;
+  height: 0.666667rem;
+  display: block;
+  margin-top: 0.266667rem;
+  border-bottom: 1px solid #239aff;
+}
+
+.layui-m-layer0 .layui-m-layermain .layui-m-layerchild {
+  width: 6.133333rem;
+  height: 4.8rem;
+}
+
+.layui-m-layerbtn span {
+  font-size: 0.4rem !important;
+}
+
+/*改标题样式*/
+
+.layui-m-layermain .layui-m-layerchild h3 {
+  text-align: left;
+  font-size: 0.373333rem;
+  height: 1.333333rem;
+  padding-left: 0.466667rem;
+  line-height: 1.333333rem;
+  color: #333333;
+}
+
+/*输入框*/
+
+.layui-m-layermain .layui-m-layercont {
+  padding: 0.266667rem 1.066667rem;
+  height: 1.2rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 0.4rem;
+  color: #666666;
+}
+
+.layui-m-layermain .layui-m-layercont input {
+  width: 100%;
+  height: 100%;
+  font-size: 0.4rem;
+  border-bottom: solid 0.013333rem #239aff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 保存取消 */
+
+.layui-m-anim-scale .layui-m-layerbtn {
+  padding-top: 0.933333rem;
+  background: #ffffff;
+  border: none;
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.layui-m-anim-scale .layui-m-layerbtn span {
+  width: 1.28rem;
+  height: 0.56rem;
+  font-size: 0.346667rem;
+  border-radius: 0.106667rem !important;
+  color: #ffffff;
+  line-height: 0.56rem;
+  text-align: center;
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.layui-m-anim-scale .layui-m-layerbtn span[no] {
+  background: #c2c2c2;
+  margin-left: 1.333333rem;
+}
+
+.layui-m-anim-scale .layui-m-layerbtn span[yes] {
+  background: #239aff;
+  color: #ffffff;
+  margin-right: 1.333333rem;
+}
+
+/*更换密码*/
+
+.layui-m-layermain .setword .layui-m-layerbtn {
+  padding-top: 0;
+}
+
+.layui-m-layermain .setword .layui-m-layercont {
+  padding-top: 0;
+  height: 2.4rem;
+}
+
+.layui-m-layermain .setword .layui-m-layercont input {
+  height: 0.933333rem;
+}
+
+/*提示框*/
+
+.layui-m-layer0 .layui-m-layermain .loginOk {
+  width: 6.133333rem;
+  height: 2.666667rem;
+}
+
+.layui-m-layer0 .layui-m-layermain .loginOk .layui-m-layercont {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-size: 0.4rem;
+  line-height: 0.466667rem;
+}
+
+/*点击确认*/
+
+.sub {
+  width: 100%;
+  height: 0.986667rem;
+  padding: 0 1.733333rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.sub a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #239aff;
+  line-height: 0.986667rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.373333rem;
+  border-radius: 0.106667rem;
+  margin-top: 2rem;
+}

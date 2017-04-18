@@ -1,0 +1,156 @@
+$fy:PingFangSC-Regular, Microsoft YaHei,sans-serif;
+html{
+	font-family:$fy;
+	-webkit-animation-name: fadeIn; /*动画名称*/
+	-webkit-animation-duration: 0.8s; /*动画持续时间*/
+	-webkit-animation-iteration-count: 1; /*动画次数*/
+	-webkit-animation-delay: 0s; /*延迟时间*/
+	}
+@-webkit-keyframes fadeIn {
+	0% {
+	opacity: 0; /*初始状态 透明度为0*/
+	}
+	50% {
+	opacity: 0; /*中间状态 透明度为0*/
+	}
+	100% {
+	opacity: 1; /*结尾状态 透明度为1*/
+	}
+}
+html,body{
+	padding: 0;
+	margin:0;
+}
+input{
+	border:none;
+	background: transparent;
+}
+a,input{
+	font-family:$fy;
+}
+a:link,a:visited,a:hover,a:active{
+	text-decoration: none;
+	color: #333333;
+}
+
+footer{
+	z-index: 99999;
+	background: #ffffff;
+	box-sizing: border-box;
+	padding-top:10px;
+	width:100%;
+	height: 97px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: solid 1px #e5e5e5; /*no*/
+	color: #333333;
+	
+	display: flex;
+	
+	a{
+		display: flex;
+		flex: 1;
+		
+		flex-direction: column;
+
+	}
+	i{
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img{
+			display:block;
+			width: 40px;
+			height: 40px;
+		};
+	}
+	span{
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.fActive{
+		color:#239aff;
+	}
+}
+/*footer高度遮盖*/
+.cleanFooter{
+	width: 100%;
+	height: 97px;
+}
+.clearfloat{clear:both} 
+
+i{
+	font-style: normal;
+}
+
+
+
+
+/**
+ *
+ * 公共的下拉和上拉代码
+ *
+ */
+#pullDown, #pullUp {
+	background:#fff;
+	height:55px;
+	line-height:55px;
+	padding:5px 10px;
+	border-bottom:1px solid #ccc;
+	font-weight:bold;
+	font-size:30px;
+	color:#888;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#pullDown .pullDownIcon, #pullUp .pullUpIcon  {
+	display:block; 
+	float:left;
+	width:55px; 
+	height:55px;
+	background:url(../img/pull-icon@2x.png) 0 0  no-repeat;
+	-webkit-background-size:55px 110px;
+	 background-size:55px 110px;
+	-webkit-transition-property:-webkit-transform;
+	-webkit-transition-duration:250ms;	
+}
+#pullDown .pullDownIcon {
+	-webkit-transform:rotate(0deg) translateZ(0);
+}
+#pullUp .pullUpIcon  {
+	-webkit-transform:rotate(-180deg) translateZ(0);
+}
+
+#pullDown.flip .pullDownIcon {
+	-webkit-transform:rotate(-180deg) translateZ(0);
+}
+
+#pullUp.flip .pullUpIcon {
+	-webkit-transform:rotate(0deg) translateZ(0);
+}
+
+#pullDown.loading .pullDownIcon, #pullUp.loading .pullUpIcon {
+	background-position:0 100%;
+	-webkit-transform:rotate(0deg) translateZ(0);
+	-webkit-transition-duration:0ms;
+
+	-webkit-animation-name:loading;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+}
+
+@-webkit-keyframes loading {
+	from { -webkit-transform:rotate(0deg) translateZ(0); }
+	to { -webkit-transform:rotate(360deg) translateZ(0); }
+}
+/**
+ *
+ * 公共的下拉和上拉代码
+ *
+ */

@@ -1,0 +1,111 @@
+html,body{
+	width:100%;
+	height: 100%;
+}
+.banner{
+	width: 100%;
+	height: 406px;
+	img{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+}
+.content{
+	width: 100%;
+	height:auto;
+	box-sizing: border-box;
+	padding: 187px 66px 0 66px;
+	position: relative;
+}
+form{
+	width: 100%;
+	height: 100%;
+	.use,.pas{
+		display: flex;
+		width:100%;
+		height:84px;
+		border:1px solid #999999;/*no*/
+		border-radius: 42px;
+		i{
+			background: transparent;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 34px;
+			height: 84px;
+			font-size: 45px;
+			color: #999999;
+			padding-left: 23px;
+		} 
+		input{
+			flex: 1;
+			padding-left: 20px;
+			line-height: 84px;
+			font-size: 24px;
+		}
+	}
+	.use{
+		margin-bottom: 36px;
+	}
+	.forget{
+		width: 100%;
+		height:40px;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		font-size: 24px;
+		color:#999999;
+		i{
+			display: flex;
+			align-items: center;
+			color: #00affe;
+			font-size: 24px;
+
+		}
+	}
+	.sub{
+		width: 100%;
+		height: 84px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 36px;
+		background: #00affe;
+		color: #ffffff!important;
+		border-radius: 42px;
+		margin-top: 44px;
+		text-decoration:none;
+	}
+	
+}
+
+.layui-m-layer0 .layui-m-layermain .layui-m-layerchild{
+	width: 460px;
+	
+	.layui-m-layercont{
+		font-size: 28px;
+		color: #666666;
+
+	}
+	.layui-m-layerbtn span[yes] {
+	    font-size: 28px;
+	}
+}
+
+.layui-m-layer0 .layui-m-layermain .loginOk{
+	width: 240px;
+	height: 120px;
+
+	.layui-m-layercont{
+		
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #ffffff;
+		margin: 0;
+		padding: 0;
+	}
+}

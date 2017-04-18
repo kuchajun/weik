@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+/*swiper样式*/
+
+#swiper-home {
+  width: 100%;
+  height: 4rem;
+}
+
+#swiper-home .swiper-pagination-bullets {
+  width: 30%;
+  right: 0;
+  left: auto;
+}
+
+#swiper-home .swiper-pagination-bullet {
+  width: 0.2rem;
+  height: 0.2rem;
+}
+
+#swiper-home .swiper-slide {
+  background: #ccc;
+}
+
+/*content样式*/
+
+.content {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.293333rem 0.666667rem 0;
+}
+
+.content .form-t {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /*去除最右margin*/
+  /*label:nth-of-type(5),label:nth-of-type(10){
+			margin-right: 0;
+		}*/
+}
+
+.content .form-t h2 {
+  width: 100%;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  font-size: 0.4rem;
+  text-align: center;
+  color: #239aff !important;
+}
+
+.content .form-t label {
+  display: block;
+  text-align: center;
+  line-height: 0.533333rem;
+  margin-right: 0.133333rem;
+  height: 0.533333rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 0.266667rem;
+  border: 1px solid #666666;
+  color: #666666;
+  min-width: 1.466667rem;
+  margin-bottom: 0.4rem;
+  padding: 0 0.266667rem;
+}
+
+.content .form-t label input {
+  visibility: hidden;
+  position: absolute;
+}
+
+.content .form-t label a {
+  width: 100%;
+  height: 100%;
+  font-size: 0.666667rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #666666;
+  font-weight: 500;
+}
+
+.content .form-b {
+  padding: 0.893333rem 0.6rem 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.content .form-b label {
+  width: 100%;
+  height: 0.973333rem;
+  border: 1px solid #666666;
+  border-radius: 0.106667rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 0.346667rem;
+}
+
+.content .form-b label input:nth-of-type(1) {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  height: 0.973333rem;
+  line-height: 0.973333rem;
+  font-size: 0.32rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 0.266667rem;
+}
+
+.content .form-b label a {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #239aff;
+  color: #ffffff;
+  font-size: 0.32rem;
+  line-height: 0.973333rem;
+  text-align: center;
+}
+
+.content .form-b span:nth-of-type(1) {
+  font-size: 0.4rem;
+  float: left;
+  color: #239aff;
+}
+
+.content .form-b span:nth-of-type(2) {
+  float: right;
+  color: #239aff;
+  font-size: 0.4rem;
+}
+
+.layui-m-layer0 .layui-m-layermain .loginOk {
+  width: 6.133333rem;
+  height: 3.2rem;
+}
+
+.layui-m-layer0 .layui-m-layermain .loginOk .layui-m-layercont {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #666666;
+  margin: 0;
+  padding: 0;
+  font-size: 0.4rem;
+  background: #ffffff;
+  border-radius: 0.066667rem;
+}
+
+.layui-m-layer .layui-m-layermain {
+  background: rgba(0, 0, 0, 0.3);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c000000', endColorstr='#4c000000');
+}
+
+:root .layui-m-layer .layui-m-layermain {
+  -webkit-filter: none\9;
+  filter: none\9;
+}
